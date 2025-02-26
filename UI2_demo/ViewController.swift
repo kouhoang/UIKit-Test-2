@@ -13,6 +13,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var mainSignInView: UIView!
     @IBOutlet weak var signInButton: UIButton!
     @IBOutlet weak var emailTitleView: UILabel!
+    @IBOutlet weak var passwordTextField: UITextField!
     @IBOutlet weak var passwordTitleView: UILabel!
     @IBOutlet weak var signInTitleLable: UIView!
     @IBOutlet weak var sunCloudImage: UIImageView!
@@ -23,6 +24,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        
+        passwordTextField.isSecureTextEntry = true
         
         mainSignInView.layer.cornerRadius = 8
         

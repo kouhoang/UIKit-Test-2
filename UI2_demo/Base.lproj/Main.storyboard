@@ -91,6 +91,7 @@
                         <outlet property="cloudXEmoji" destination="BYP-RI-Bnl" id="c8Z-2M-dMq"/>
                         <outlet property="emailTitleView" destination="MfT-un-5A8" id="4C6-tj-ncw"/>
                         <outlet property="mainSignInView" destination="nbh-gv-c7J" id="bDH-2C-Rcz"/>
+                        <outlet property="passwordTextField" destination="ZLE-jh-xDI" id="bug-RI-s3g"/>
                         <outlet property="passwordTitleView" destination="ykm-fV-qsb" id="p0L-BU-Xtu"/>
                         <outlet property="signInButton" destination="rfy-Vd-dhr" id="PJa-CT-tGS"/>
                         <outlet property="signInTitleLable" destination="Mm3-5B-8Qf" id="eRW-GA-Iih"/>
